@@ -1,0 +1,21 @@
+#frm{
+    margin: 100px 550px;
+      height: 250px;
+      width: 300px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      text-align: center;
+     align-content: center;
+
+  }
+  #mail,#passw{
+      padding: 10px;
+      display: block;
+      margin: 15px 45px;
+  }
+  .submit_btn{
+      padding: 10px;
+      display: block;
+      margin: 15px 65px;
+      width: 150px;
+  }
+  

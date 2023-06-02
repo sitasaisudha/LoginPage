@@ -1,0 +1,15 @@
+img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.users{
+    height: 400px;
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+    margin: 100px 500px;
+}
+.users li{
+    list-style: none;
+}

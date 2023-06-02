@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/user_styles.css">
+</head>
+
+<body>
+    <div class="users">
+            <img src=<%=image %> alt="" srcset="">
+            <h3>  <%= username %> </h3>
+        <p> Role : <%=role %> </p>
+        <p> TechStack: <%=techStack %> </p>
+        <p> Salary: <%=salary %> </p>
+        <p>Hobbies:</p>
+        <ul>
+            <%hobbies.forEach((hobby)=>{ %>
+                <li> <%=hobby %> </li>
+           <% }) %>
+        </ul>
+       <% if(exp){ %>
+            <p>Experience : <%=exp %></p>
+       <% } %>
+            
+    </div>
+   
+    
+</body>
+</body>
+</html>
